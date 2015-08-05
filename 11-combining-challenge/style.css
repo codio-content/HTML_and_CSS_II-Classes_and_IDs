@@ -1,0 +1,39 @@
+body {
+  font-family : Verdana, Arial, sans-serif;
+  font-size:12px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  background-color:lightgray;
+  margin:4px;
+  padding:4px;
+  font-size:150%;
+  cursor:pointer;
+}
+
+h1 {
+  font-size:300%;
+  color:darkred;
+  background-color:lightsalmon;
+  font-weight:normal;
+}
+
+h2 {
+  font-size:200%;
+  color:darkred;
+  font-weight:normal;
+}
+
+p {
+  color:darkgray;
+}
+
+.selected {
+  font-weight:bold;
+  cursor:default;
+}

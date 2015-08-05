@@ -1,0 +1,263 @@
+{
+ "sections": [
+  {
+   "id": "d7afc5ac-333e-2f06-e6ad-7945391c5365",
+   "title": "Introduction",
+   "files": [],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Introduction-d7af.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "831c14f9-3d10-a2a5-11b2-733baa3893c3",
+   "title": "CSS Classes",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/CSS-Classes-831c.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "6a8b502-d02c-7c48-5035-16f77e33323b",
+   "title": "A first class in practice",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "3-our-quote-example/index.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "3-our-quote-example/style.css",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: 3-our-quote-example/index.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-tree",
+   "path": [
+    "3-our-quote-example"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/A-first-class-in-practice-6a8b.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "ac06acf5-7e99-6b53-f27e-c3aad1c26330",
+   "title": "CSS id's",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/CSS-id-s-ac06.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "91de6890-7601-1732-c3f3-aacb1b222399",
+   "title": "Multiple classes",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Multiple-classes-91de.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "8dc62f7e-325-84f7-acff-3426fbecd5c0",
+   "title": "Multiple classes challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "6-multiple-classes-challenge/index.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "6-multiple-classes-challenge/style.css",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: 6-multiple-classes-challenge/index.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-tree",
+   "path": [
+    "6-multiple-classes-challenge"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Multiple-classes-challenge-8dc6.md",
+   "chapter": false,
+   "reset": [
+    "6-multiple-classes-challenge"
+   ]
+  },
+  {
+   "id": "cad462ee-ce11-4c85-77d7-5d6fa0aa9ec0",
+   "title": "Same rule on multiple elements",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Same-rule-on-multiple-elements-cad4.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "48d5cf8a-fd55-519e-8b96-14e8921715a2",
+   "title": "Combining tags, ids and classes in selectors.",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "8-combining/index.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "8-combining/style.cs",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: 8-combining/index.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-tree",
+   "path": [
+    "8-combining"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Combining-tags--ids-and-classes-in-selectors--48d5.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "c78b109-1ec4-d081-e5e4-59549957c5f5",
+   "title": "Descendants and children",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Descendants-and-children-c78b.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "c0f8e634-576e-e499-27cb-da1ef7d63df5",
+   "title": "Combining tags, ids and classes (continued)",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Combining-tags--ids-and-classes--continued--c0f8.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "9a8342c3-2c4c-e306-3cc3-ac3f4dc991c1",
+   "title": "Challenge on combining",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "11-combining-challenge/index.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "11-combining-challenge/style.css",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: 11-combining-challenge/index.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-tree",
+   "path": [
+    "11-combining-challenge"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-on-combining-9a83.md",
+   "chapter": false,
+   "reset": [
+    "11-combining-challenge"
+   ]
+  },
+  {
+   "id": "c8ad9e26-8f89-4e60-14bd-acc666c8978",
+   "title": "Selector precedence",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Selector-precedence-c8ad.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "3fe0c97d-d348-b05e-b684-b53dc06c6844",
+   "title": "A though challenge !",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A-though-challenge---3fe0.md",
+   "chapter": false,
+   "reset": []
+  }
+ ],
+ "theme": "light",
+ "scripts": []
+}

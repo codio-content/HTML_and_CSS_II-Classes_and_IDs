@@ -1,0 +1,72 @@
+.normal-orange-left {
+  font-size:12px;
+  color:orange;
+  text-align:left;
+}
+
+.normal-orange-right {
+  font-size:12px;
+  color:orange;
+  text-align:right;
+}
+
+.normal-orange-center {
+  font-size:12px;
+  color:orange;
+  text-align:center;
+}
+
+.big-orange-left {
+  font-size:18px;
+  color:orange;
+  text-align:left;
+}
+
+.big-orange-right {
+  font-size:18px;
+  color:orange;
+  text-align:right;
+}
+
+.big-orange-center {
+  font-size:18px;
+  color:orange;
+  text-align:center;
+}
+
+.normal-blue-left {
+  font-size:12px;
+  color:blue;
+  text-align:left;
+}
+
+.normal-blue-right {
+  font-size:12px;
+  color:blue;
+  text-align:right;
+}
+
+.normal-blue-center {
+  font-size:12px;
+  color:blue;
+  text-align:center;
+}
+
+.big-blue-left {
+  font-size:18px;
+  color:blue;
+  text-align:left;
+}
+
+.big-blue-right {
+  font-size:18px;
+  color:blue;
+  text-align:right;
+}
+
+.big-blue-center {
+  font-size:18px;
+  color:blue;
+  text-align:center;
+}
+
