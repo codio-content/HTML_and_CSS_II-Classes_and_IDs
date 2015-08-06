@@ -33,44 +33,20 @@ p {
 }
 ```
 
-The first part, we know, it's assigning to the p tags, a certain font size and font family.
+The first part, we know, is assigning to the p tags, a certain font size and font family.
 
-The two other ones `.my-first-class` and `.my-second-class` are both class and we can recognise them as such because they both start with `.` (a dot).
+The two other ones `.my-first-class` and `.my-second-class` are both classes and we can recognise them as such because they both start with `.` (a dot).
 
 So to define a css class you should start with a dot `.` followed by the actual class name.
 
 Now how do we apply a certain class to an html tag ?
 
-It's simple, just add `class="my-first-class"` or `class="my-second-class`.
+It's simple, just add `class="my-first-class"` or `class="my-second-class` to the tag.
 
-So here is an example of html that would use it all :
+On the top left `example.html`, we have a html document that would use it all. Feel free to play with, you can see the result in the bottom left window.
 
-```html
-<p> Here is my first pargraph of text.</p>
+### In short :
 
-<p class="my-first-class"> This paragraph has "my-first-class" as a class and so should appear in read</p>
+1) On the html side we add an attribute `class="classname"`
 
-<p class="my-second-class"> This paragraph has "my-second-class" as a class and so should appear in blue</p>
-```
-
-
-The resulting html should appear like this :
-
-<div style="border:1px solid #c7d5f6; padding:10px 20px;">
-
-<p style="font-size : 12px; font-family:Arial, sans-serif;"> Here is my first paragraph of text.</p>
-
-<p style="font-size : 12px; font-family:Arial, sans-serif; color:red;"> This paragraph as "my-first-class" as a class and so should appear in read</p>
-
-<p style="font-size : 12px; font-family:Arial, sans-serif; color:blue;"> This paragraphs as "my-second-class" as a class and so should appear in blue</p>
-
-</div>
-
-So basically we and an attribute to the html tag which is called "class" and has the classname as its value !
-
-In the next section we will use all this to do our quote example !
-
-
-
-  
-
+2) In the css we use the selector `.classname`

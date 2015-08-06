@@ -1,36 +1,17 @@
 Here we will see how to use multiple classes in order to achieve what we want.
 
-First example : box-red and box-blue
+### First example : `box-red` and `box-blue`
 
-Let says we want to have to style of boxes around our content some content has red boxes and some other content we will have blue boxes.
-The most naive way of doing this would be :
+Let say we want the some of our content to be in red boxes and some other content to be in blue boxes.
+
+The most naive way of doing this would be like in the left top editor.
 
 ```html
 <p class="box-red"> I'm in a red box </p>
 <p class="box-blue"> I'm in a blue box </p>
 ```
 
-With the following css :
-
-```css
-.box-red {
-  background-color:#e2a5a5;
-  padding:20px;
-  border:2px solid #960606;
-  color:#960606;
-}
-
-.box-blue {
-  background-color:#a5a8e2;
-  padding:20px;
-  border:2px solid #080696;
-  color:#080696;
-}
-```
-
-With a result looking like this :
-
-![](.guides/img/illu1.png)
+With a result looking like on the bottom left.
 
 This is working and doesn't seem so bad, but imagine we have a third color "green" on our website and we also have 3 text alignments "left", "center", "right" ...
 
@@ -40,14 +21,16 @@ Using this technique we would end up with the following classes :
 
 That's a lot of css classes and a lot of repetitions in the css, moreover it's not very "maintainable" .. What happens if the designer decides to change the shade of the colors ? We have to go and modify so many css classes ...
 
-Here is a better way to do it, using multiple css classe :
+Here is a better way to do it, using multiple css classes :
 
 ```html
 <p class="box red left"> I'm in a red box on the left </p>
 <p class="box blue center"> I'm in a red box in the center </p>
 <p class="box green right"> I'm in a green box on the right </p>
 ```
+
 With the following css :
+
 ```css
 .box {
   padding:20px;

@@ -14,12 +14,32 @@
   {
    "id": "831c14f9-3d10-a2a5-11b2-733baa3893c3",
    "title": "CSS Classes",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "2-css-classes/example.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: 2-css-classes/example.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-tree",
+   "path": [
+    "2-css-classes"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/CSS-Classes-831c.md",
    "chapter": false,
-   "reset": []
+   "reset": [
+    "2-css-classes"
+   ]
   },
   {
    "id": "6a8b502-d02c-7c48-5035-16f77e33323b",
@@ -61,24 +81,104 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "4-css-ids/example.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: 4-css-ids/example.html",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "1-panel",
-   "path": [],
+   "layout": "3-cell-tree",
+   "path": [
+    "4-css-ids"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/CSS-id-s-ac06.md",
+   "chapter": false,
+   "reset": [
+    "4-css-ids"
+   ]
+  },
+  {
+   "id": "179d4813-30a9-3272-e65f-4b2efdd8040",
+   "title": "Difference between class and id",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Difference-between-class-and-id-179d.md",
    "chapter": false,
    "reset": []
   },
   {
+   "id": "666a3e17-140f-c987-8786-1705676fd207",
+   "title": "When to use what ?",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "6-when-to-use-what/challenge.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: 6-when-to-use-what/challenge.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-tree",
+   "path": [
+    "6-when-to-use-what"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/When-to-use-what---666a.md",
+   "chapter": false,
+   "reset": [
+    "6-when-to-use-what"
+   ]
+  },
+  {
    "id": "91de6890-7601-1732-c3f3-aacb1b222399",
    "title": "Multiple classes",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "7-multiple-classes/example1.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: 7-multiple-classes/example1.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-tree",
+   "path": [
+    "7-multiple-classes"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Multiple-classes-91de.md",
    "chapter": false,
-   "reset": []
+   "reset": [
+    "7-multiple-classes"
+   ]
   },
   {
    "id": "8dc62f7e-325-84f7-acff-3426fbecd5c0",
@@ -253,7 +353,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/A-though-challenge---3fe0.md",
+   "content-file": ".guides/content/An-unprecedented-challenge--3fe0.md",
    "chapter": false,
    "reset": []
   }
