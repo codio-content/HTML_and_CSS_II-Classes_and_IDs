@@ -91,7 +91,7 @@ Or seen visually :
 
 ### Concrete examples
 
-Here are the specificity values calculated for our example in the beginning of this section, along with the respecitve selectors.
+Here are the specificity values calculated for our example in the beginning of this section, along with the respective selectors.
 
 ![](.guides/img/illu25.png)
 ![](.guides/img/illu26.png)
@@ -100,7 +100,7 @@ Here are the specificity values calculated for our example in the beginning of t
 
 And this does answer our question on why the color orange would be applied to our li in this case !
 
-(Calculated using this great tool : http://specificity.keegan.st/ )
+(Specificity values calculated using this great tool : http://specificity.keegan.st/)
 
 
 
