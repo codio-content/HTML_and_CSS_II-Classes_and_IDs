@@ -152,7 +152,7 @@
   },
   {
    "id": "91de6890-7601-1732-c3f3-aacb1b222399",
-   "title": "Multiple classes",
+   "title": "Multiple classes (I)",
    "files": [
     {
      "path": "#tabs",
@@ -161,6 +161,8 @@
     {
      "path": "7-multiple-classes/example1.html",
      "panel": 0,
+     "ref": "I'm in a red box",
+     "lineCount": 2,
      "action": "open"
     },
     {
@@ -174,11 +176,62 @@
     "7-multiple-classes"
    ],
    "type": "markdown",
-   "content-file": ".guides/content/Multiple-classes-91de.md",
+   "content-file": ".guides/content/Multiple-classes--I--91de.md",
    "chapter": false,
    "reset": [
     "7-multiple-classes"
    ]
+  },
+  {
+   "id": "8dcd726-9d57-6759-e987-5e70745f14cd",
+   "title": "Multiple classes (II)",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "7-multiple-classes/example2.html",
+     "panel": 0,
+     "ref": "box red left",
+     "lineCount": 3,
+     "action": "open"
+    },
+    {
+     "path": "#preview: 7-multiple-classes/example2.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "7-multiple-classes"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Multiple-classes--II--8dcd.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "ad8397ab-1d36-7aee-ee4d-94e766d17cc5",
+   "title": "Laying out your css rules",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "7-multiple-classes/laying-out.css",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Laying-out-your-css-rules-ad83.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "8dc62f7e-325-84f7-acff-3426fbecd5c0",
@@ -222,10 +275,22 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "11-same-rule-multiple-elements/withclasses.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "11-same-rule-multiple-elements/withoutclasses.html",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "1-panel",
-   "path": [],
+   "layout": "3-cell-tree",
+   "path": [
+    "11-same-rule-multiple-elements"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Same-rule-on-multiple-elements-cad4.md",
    "chapter": false,
@@ -271,10 +336,22 @@
     {
      "path": "#tabs",
      "action": "close"
+    },
+    {
+     "path": "13-descendants-and-children/example1.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/html-treeview/tree.html#url=/13-descendants-and-children/example1.html&querySelector=body *",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "1-panel",
-   "path": [],
+   "layout": "3-cell-tree",
+   "path": [
+    "13-descendants-and-children"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Descendants-and-children-c78b.md",
    "chapter": false,

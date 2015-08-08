@@ -2,7 +2,7 @@ Now we have seen ids and classes and it gives us a lot more power for the css.
 We have also seen that we shouldn't abuse them.
 Here are some examples of doing the same thing with our without classes and how to combines rules for multiple elements.
 
-Let's imagine we have the following html :
+Let's imagine we have the following html (you can see it on the top left window) :
 
 ```html
 <h1 class="myfont"> My nice title </h1>
@@ -20,7 +20,7 @@ and the css :
 
 That works .. But do we really need a class for this ?
 
-We could just do :
+We could just do (you can see it on the bottom left window) :
 
 ```html
 <h1> My nice title </h1>

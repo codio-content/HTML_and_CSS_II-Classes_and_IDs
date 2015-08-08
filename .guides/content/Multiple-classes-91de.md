@@ -6,11 +6,6 @@ Let say we want the some of our content to be in red boxes and some other conten
 
 The most naive way of doing this would be like in the left top editor.
 
-```html
-<p class="box-red"> I'm in a red box </p>
-<p class="box-blue"> I'm in a blue box </p>
-```
-
 With a result looking like on the bottom left.
 
 This is working and doesn't seem so bad, but imagine we have a third color "green" on our website and we also have 3 text alignments "left", "center", "right" ...
@@ -20,6 +15,7 @@ Using this technique we would end up with the following classes :
 `.box-red-left`, `.box-red-center`, `.box-red-right`, `.box-blue-left`, `.box-blue-center`, `.box-blue-right`, `.box-green-left`, `.box-green-center`, `.box-green-right`
 
 That's a lot of css classes and a lot of repetitions in the css, moreover it's not very "maintainable" .. What happens if the designer decides to change the shade of the colors ? We have to go and modify so many css classes ...
+
 
 Here is a better way to do it, using multiple css classes :
 

@@ -1,0 +1,3 @@
+[submodule ".guides/html-treeview"]
+	path = .guides/html-treeview
+	url = git@bitbucket.org:codiocontent/html-treeview.git

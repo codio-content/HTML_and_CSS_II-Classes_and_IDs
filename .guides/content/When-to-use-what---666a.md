@@ -14,7 +14,7 @@ For example, don't do :
 <a href="http://codio.com" class="link"> my link </a>
 ```
  
-We already know it's a link, because it's a `<a>` tag so adding a `link` class is not necessary. You might want to add a `class="external-link"` on links that go outside of your website, so you can style them differently and your visitors will understand that they are leaving your website when clicking on those. But don't put a class `link` on all your `<a>` tags, you don't need it and can style them using the `a` as selector.
+We already know it's a link, because it's a `<a>` tag so adding a `link` class on all of them is not necessary. You might want to add a `class="external-link"` on links that go outside of your website, so you can style them differently and your visitors will understand that they are leaving your website when clicking on those. But don't put a class `link` on all your `<a>` tags, you don't need it and can style them using the `a` as selector.
  
 ### 2) Use classes first and try to avoid ids, except for really unique functional parts.
  

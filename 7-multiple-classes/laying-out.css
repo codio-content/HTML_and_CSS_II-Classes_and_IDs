@@ -1,0 +1,14 @@
+
+/* This is not recommended as it is not readable at all */
+.green { color:#069625; background-color:#a7e2a5; border-color:#069625; }
+
+/* This is much better ! */
+.green { 
+  color:#069625; 
+  background-color:#a7e2a5; 
+  border-color:#069625; 
+}
+
+
+/* This is also acceptable as there is only one css property */
+.left { text-align:left; }

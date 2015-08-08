@@ -1,7 +1,9 @@
-A *descendant* in html is a tag which is "inside" another tag.
+A *descendant* in html is a tag which is "inside" another tag. 
 
-So for example any tag in our page is a descendant of the `<html>` tag and of the `<body>` tag.
- 
+In *any* html page *all* the other tags are descendants of the `<html>` tag.
+
+## Simple example
+
 If we have :
 
 ```html
@@ -12,33 +14,38 @@ If we have :
 </ul>
 ```
 
-The `<li>` tags are *descendant* of the `<ul>` tags.
+The `<li>` tags are *descendants* of the `<ul>` tags.
 
-If we want to visualise this differently, in the next image, the green tags are the "descendants" of the body tag.
+## Seeing it another way
 
-![](.guides/img/illu4.png)
+Consider we have the html as `example1.html` in the top left window.
 
-And in this one, the green tags are the descendants of the ul tags.
+Look at the bottom left window and the green tags are the descendants of the body tag.
 
-![](.guides/img/illu5.png)
+Now [Click here](close_all panel=1; open_preview 13-descendants-and-children/example2.html panel=1) to see the descendants of the ul tag.
 
-### Children vs Descendants
-There is a dinstinction to me made about descendants. There is a special kind of descendants which is called "children".
 
+## Children vs Descendants
+There is a dinstinction to me made about descendants. There is a special kind of descendants which is called child or children.
+
+|||definition
 A direct descendant is a child.
 A child is always also a descendant.
-But not all descendants are children.
+But descendants are not always children.
+|||
 
-In the exemple with the descendants of the body tag :
+In the exemple based on the top left html code :
 
-![](.guides/img/illu4.png)
+`<h1>`, `<h2>`, `<p>`, `<ul>`, `<li>` are descendants of `<body>`. 
+[Click here to see them](close_all panel=1; open_preview 13-descendants-and-children/example3.html panel=1)
 
-`<h1>`, `<h2>`, `<p>`, `<ul>`, `<li>` are descendants of `<body>`.
-
-`<h1>`, `<h2>`, `<p>`, `<ul>`  are children of `body`.
+`<h1>`, `<h2>`, `<p>`, `<ul>`  are children of `body`. 
+[Click here to see them](close_all panel=1; open_preview 13-descendants-and-children/example4.html panel=1)
 
 But `<li>` tags are not children of `body`.
 
 The vocabulary and logic is the same as for human descendants and children :)
 
 Now that we understand the concept of *descandant* let's go to the next section to continue combining ids, classes and tags in css selectors.
+
+PS : In all the examples above you can change the top left html and then refresh the bottom left window in order to see how it changes ...
