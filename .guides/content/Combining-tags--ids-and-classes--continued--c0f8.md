@@ -1,6 +1,6 @@
 So we want the nav to look differently at the top and the bottom of the page. We need to be able to put a different style for the top nav with `id="header-nav"` and the bottom nav with `id="footer-nav"`.
 
-So we need to target the descendants of `#header-nav` and the ones of `#footer-nav`.
+We need to target the descendants of `#header-nav` and the ones of `#footer-nav` independantly.
 
 There are two ways in css to target the descendants :
 
@@ -20,35 +20,7 @@ So if we want to target the li that are descendants of #header-nav, just write :
 }
 ```
 
-Let's say we have this html :
-
-```html
-<ul id="header-nav">
-  <li> item1 
-    <ul>
-    <li> subitem 1</li>
-    <li> subitem 2</li>
-    </ul>
-  </li>
-  <li class="selected"> item2 </li>
-  <li> item3 </li>
-</ul>
-
-<ul id="footer-nav">
-  <li> item1 
-    <ul>
-    <li> subitem 1</li>
-    <li> subitem 2</li>
-    </ul>
-  </li>
-  <li> item2 </li>
-  <li class="selected"> item3 </li>
-</ul>
-```
-
-And if we use the selector `#header-nav li`, on the html above, the following elements will be targeted (the ones in green) :
-
-![](.guides/img/illu6.png)
+Let's say we have the html which is in the top left window, and if we use the selector `#header-nav li` on it. You can see in the bottom left window the elements that would be targeted (the ones in green).
 
 
 ### 2) Descendant selector syntax.
@@ -64,118 +36,31 @@ So if we want to target the li's that are the children of #header-nav we will wr
 }
 ```
 
-So if we visualize the result, based on the above html, the target elements would be (the ones in green) :
-
-![](.guides/img/illu7.png)
+To visualize the elements that would be selected (in green again), [click here](open_preview 14-combining-tags-ids-classes/example2.html panel=1).
 
 Did you notice that the two li's at the bottom are not selected as they are not direct children ?
 
 ## More examples :
 
-Now this works for anything, not only ids followed by tags.
+Now this syntax works for anything, not only ids followed by tags.
 
-Considering we have the html from the above example again, here are some css selectors and what would matched :
+Go into the bottom left window, scroll a bit up and click "Options", the options panel for the tree view will open.
+Change the textbox value to whatever css selector you want and then click the "Show tree" button see how it affects which boxes are target by the selector or not ?
 
-<table>
-<tr> <th width="30%">selector</th> <th>matches</th> </tr>
-<tr> <td>
+(You might want to click the little arrow icon on the top left of the preview window so it becomes full screen and you have more space to play)
 
-`ul li`
+You can try these different values :
 
-</td> <td> 
+- `ul li`
+- `ul > li` 
+- `ul` 
+- `body ul`
+- `body > ul` 
+- `ul li ul` 
+- `ul li ul li` 
+- `#header-nav li`
+- `.selected`
+- `#header-nav .selected`
+- `#footer-nav .selected` 
 
-![](.guides/img/illu8.png) 
-
-</td> </tr>
-<tr> <td> 
-
-`ul > li` 
-
-</td> <td> 
-
-![](.guides/img/illu9.png) 
-
-</td> </tr>
-<tr> <td> 
-
-`ul` 
-
-</td> <td> 
-
-![](.guides/img/illu10.png) 
-
-</td> </tr>
-<tr> <td> 
-
-`body ul`
-
-</td> <td> 
-
-![](.guides/img/illu11.png)
-
-</td> </tr>
-<tr> <td> 
-
-`body > ul` 
-
-</td> <td> 
-
-![](.guides/img/illu12.png) 
-
-</td> </tr>
-<tr> <td> 
-
-`ul li ul` 
-
-</td> <td> 
-
-![](.guides/img/illu13.png) 
-
-</td> </tr>
-<tr> <td> 
-
-`ul li ul li` 
-
-</td> <td> 
-
-![](.guides/img/illu14.png)
-
-</td> </tr>
-<tr> <td> 
-
-`#header-nav li`
-
-</td> <td> 
-
-![](.guides/img/illu15.png)
-
-</td> </tr>
-<tr> <td> 
-
-`.selected`
-
-</td> <td> 
-
-![](.guides/img/illu16.png) 
-
-</td> </tr>
-<tr> <td>
-
-`#header-nav .selected`
-
-</td> <td> 
-
-![](.guides/img/illu17.png) 
-
-</td> </tr>
-<tr> <td> 
-
-`#footer-nav .selected` 
-
-</td> <td> 
-
-![](.guides/img/illu18.png) 
-
-</td> </tr>
-
-</table>
+Do you notice that some give the same results, for example : `ul` and `body ul`. And also that using the descendants syntax we can target very precisely what we want ?

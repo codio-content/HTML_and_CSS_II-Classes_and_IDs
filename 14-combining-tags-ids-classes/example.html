@@ -1,0 +1,44 @@
+<!--
+To change this template use Tools | Templates.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style>
+    #header-nav li {
+      /* this will target all the li's that
+         are descendants of #header-nav */
+    }
+    
+    #header-nav > li {
+      /* this will target all the li's that
+         are children of #header-nav */
+    }
+    
+  </style>  
+</head>
+<body>
+  <ul id="header-nav">
+    <li> item1 
+      <ul>
+      <li> subitem 1</li>
+      <li> subitem 2</li>
+      </ul>
+    </li>
+    <li class="selected"> item2 </li>
+    <li> item3 </li>
+  </ul>
+
+  <ul id="footer-nav">
+    <li> item1 
+      <ul>
+      <li> subitem 1</li>
+      <li> subitem 2</li>
+      </ul>
+    </li>
+    <li> item2 </li>
+    <li class="selected"> item3 </li>
+  </ul>
+</body>
+</html>
