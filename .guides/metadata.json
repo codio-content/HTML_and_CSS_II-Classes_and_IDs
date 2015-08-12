@@ -231,7 +231,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Laying-out-your-css-rules-ad83.md",
