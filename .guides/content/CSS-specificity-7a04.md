@@ -45,11 +45,12 @@ There is an automatic specificity calculator in the bottom left window.
 
 In the top text field, where it's written `#nav-header li.selected`, you can enter any css selector you'd like and it will calculate the specificity underneath it.
 
-Try playing a bit with it and enter the selector for all the css rules from the top left window :
+Try playing a bit with it you can enter any css selector you'd like. You can also click on the selectors underneath to open new windows with those, so you can compare them.
 
-- `li`
-- `li.myelement`
-- `#mylist li`
-- `#mylist li.myelement`
+- [li](open_preview 17-specificity/ex1.html panel=1)
+- [li.myelement](open_preview 17-specificity/ex2.html panel=1)
+- [#mylist li](open_preview 17-specificity/ex3.html panel=1)
+- [#mylist li.myelement](open_preview 17-specificity/ex4.html panel=1)
+
 
 So which one is the strongest ? That explains why the color of our li is orange ...
