@@ -1,4 +1,4 @@
-CSS Specificity is the means by which a browser decides which CSS property values are the most relevant to an element and therefore will be applied.
+CSS Specificity is the mean by which a browser decides which CSS property values are the most relevant to an element and therefore will be applied.
 
 Specificity is only based on the matching rules which are composed of css selectors of different sorts.
 
@@ -8,13 +8,23 @@ The specificity is a 4-tuple (A,B,C,D) :
 
 Here are some examples, in order of increasing strength.
 
-![](.guides/img/illu23.png)
-![](.guides/img/illu22.png)
-![](.guides/img/illu21.png)
-![](.guides/img/illu20.png)
+(0,0,0,1)
+(0,0,0,2)
+(0,0,1,0)
+(0,0,1,4)
+(0,0,3,0)
+(0,1,0,0)
+(0,1,0,1)
+(0,2,0,0)
+(1,0,2,0)
+(1,0,2,1)
 
+So :
+A '1' in A will always be stronger than any value in B, C or D.
+A '1' in B will always be stronger than any value in C or D.
+A '1' in C will always be stronger thant any value in D.
 
-The more left a value is the more "specific" it is and thus it will win over less specific values.
+If there is an equality, for example in A, then the one with the biggest in B will win.
 
 ### How do we calculate specificity ?
 
@@ -31,13 +41,15 @@ Or seen visually :
 
 ### Concrete examples
 
-Here are the specificity values calculated for our example in the beginning of this section, along with the respective selectors.
+There is an automatic specificity calculator in the bottom left window.
 
-![](.guides/img/illu25.png)
-![](.guides/img/illu26.png)
-![](.guides/img/illu27.png)
-![](.guides/img/illu28.png)
+In the top text field, where it's written `#nav-header li.selected`, you can enter any css selector you'd like and it will calculate the specificity underneath it.
 
-And this does answer our question on why the color orange would be applied to our li in this case !
+Try playing a bit with it and enter the selector for all the css rules from the top left window :
 
-(Specificity values calculated using this great tool : http://specificity.keegan.st/)
+- `li`
+- `li.myelement`
+- `#mylist li`
+- `#mylist li.myelement`
+
+So which one is the strongest ? That explains why the color of our li is orange ...

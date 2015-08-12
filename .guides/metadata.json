@@ -457,8 +457,26 @@
   {
    "id": "7a04c1ed-4367-559c-8393-d2b7b8d49d10",
    "title": "CSS specificity",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "17-specificity/example.css",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/specificity-calculator/sc.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "17-specificity"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/CSS-specificity-7a04.md",
    "chapter": false,

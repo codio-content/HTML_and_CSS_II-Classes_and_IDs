@@ -29,44 +29,54 @@ li.myelement {
 }
 ```
 
-What color will be the li in the end ?
-red or green or blue or orange ?
+What color will be the `li` in the browser ?
+red, green, blue or orange ?
 
-The answer is : orange ! (and the reason is NOT because it is the last declaration to appear in the css file ...)
+The answer is : orange ! (You can see the result in the bottom left window)
 
-You can the see the code in the top left window and the result of it in the bottom left window...
+And the reason is NOT because it is the last declaration to appear in the css file ...
 
 But why then ?
 
-Let's study the rules that will allow us to understand this ..
+In order to answer this question we need to learn more about the CSS precedence rules that will allow us to understand this ..
 
 ## CSS precedence
-When the browser find multiple declaration conflicting for the same css property (as our example above) It needs to determine which one will "win".
+When the browser find multiple declaration conflicting for the same css property (as in our example above) it needs to determine which one will be chosen.
 
-For that it uses a set of CSS precedence rules, the rules are in order:
+For that it uses a set of CSS precedence rules. Here is a diagram that explains it :
 
-1) !important after CSS property.
-2) Specificity of CSS rule selectors.
-3) Sequence of declaration.
+![](.guides/img/Precedence.png)
 
-So if there is an **!important** value appended to a CSS property it's an automatic win. (The only way an !important value can be overridden is with another !important rule declared later in the CSS and with equal or greater specificity value otherwise)
+
+It has 3 important steps :
+
+1) !important at end CSS property.
+
+So if there is an !important value appended to a CSS property it's an automatic win^(1)^
 
 Exemple of using !important :
 
 ```css
-p {
+li {
   color:red !important;
 }
 ```
 
-This will win over any other rule. It is advised to NEVER used !important as there are other ways to achieve the same result and this cannot be overriden in any way later. 
+This will win over any other rule. It is advised to avoid using !important as there are other ways to achieve the same result and this cannot be overriden in any way later.
 
-So after the browser checked if there is an !important, it will calculate the specificity of the selector containing the conflicting property and then choose the property whose selector has the highest specificity. If 2 selectors or more have exactly the same specificity the browser will select the one that was the last in the css file.
+In the left top window, on line 10, try to add `!important`. Then refresh the bottom left window and you will see the color change to red.
 
-Let see in the next section how to calculate the css specificity ...
+2) Specificity of CSS rule selectors.
 
+If there is no !important, the browser will calculate the specificity of the selector and then choose the property whose selector has the highest specificity. We will see in the next section how to calculate the css specificity 
 
+3) Sequence of declaration.
 
+If 2 selectors or more have exactly the same specificity the browser will select the one that was declared the last in the css file.
+
+---
+
+(1) : The only way an !important value can be overridden is with another !important rule declared later in the CSS and with equal or greater specificity value otherwise
 
 
 

@@ -1,3 +1,6 @@
 [submodule ".guides/html-treeview"]
 	path = .guides/html-treeview
 	url = git@bitbucket.org:codiocontent/html-treeview.git
+[submodule ".guides/specificity-calculator"]
+	path = .guides/specificity-calculator
+	url = git@bitbucket.org:codiocontent/specificity-calculator.git
