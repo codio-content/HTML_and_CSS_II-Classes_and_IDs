@@ -78,6 +78,9 @@ If 2 selectors or more have exactly the same specificity the browser will select
 
 (1) : The only way an !important value can be overridden is with another !important rule declared later in the CSS and with equal or greater specificity value otherwise
 
+{Check It!|assessment}(multiple-choice-3955022808)
+
+
 
 
 

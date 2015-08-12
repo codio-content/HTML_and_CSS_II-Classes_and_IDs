@@ -18,6 +18,10 @@ if (ast.ast == undefined) {
   if (!ast.selector_and_has_property(["h2","p"],"color","gray")) {
     errors.push("h2 and p should have a color gray");
   }
+  
+  if (ast.rules_count() > 6) {
+    errors.push("There are too many css rules");
+  }
 
 }
 

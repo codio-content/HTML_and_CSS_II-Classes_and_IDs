@@ -54,3 +54,5 @@ Try playing a bit with it you can enter any css selector you'd like. You can als
 
 
 So which one is the strongest ? That explains why the color of our li is orange ...
+
+{Check It!|assessment}(multiple-choice-663579098)

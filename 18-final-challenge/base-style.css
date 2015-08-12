@@ -1,0 +1,36 @@
+body {
+  background-color:lightcyan;
+  color:darkcyan;
+  font-family:Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a.selected {
+  font-weight:bold;
+}
+
+a {
+  text-decoration:none;
+  color:darkblue;
+  background-color:lightseagreen;
+}
+
+#header-nav{
+  padding-left:0px;
+}
+
+ul li ul {
+  padding-left: 0px;
+}
+
+#footer-nav li {
+  display:inline;
+  margin-left:10px;
+}
+
+#footer-nav li ul {
+  display:none;
+}
