@@ -485,12 +485,37 @@
   {
    "id": "3fe0c97d-d348-b05e-b684-b53dc06c6844",
    "title": "An unprecedented challenge!",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "18-final-challenge/index.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "18-final-challenge/style.css",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: 18-final-challenge/index.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "18-final-challenge"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/An-unprecedented-challenge--3fe0.md",
    "chapter": false,
-   "reset": []
+   "reset": [
+    "18-final-challenge"
+   ]
   }
  ],
  "theme": "light",
