@@ -83,13 +83,18 @@
      "action": "close"
     },
     {
-     "path": "4-css-ids/example.html",
+     "path": "4-css-ids/style.css",
      "panel": 0,
      "action": "open"
     },
     {
      "path": "#preview: 4-css-ids/example.html",
      "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "4-css-ids/example.html",
+     "panel": 0,
      "action": "open"
     }
    ],

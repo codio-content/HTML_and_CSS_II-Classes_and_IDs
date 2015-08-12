@@ -50,5 +50,36 @@ The `,` in a css file allows us to target multiple selectors at once.
 
 So `h1, h2, p` means : put this style on `h1`, `h2` and `p`.
 
+{Check It!|assessment}(test-2798805781)
 
+|||guidance
+
+## Solution :
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Without classes</title>
+    <style>
+      h1 { font-family: Verdana, Arial, sans-serif; }
+      h2 { font-family: Verdana, Arial, sans-serif; }
+      p { font-family: Verdana, Arial, sans-serif; }
+      
+      /* or even better */
+      h1, h2, p { font-family: Verdana, Arial, sans-serif; }
+      
+      h1, h2 { font-weight:bold; }
+      
+      h2, p { color:gray; }
+      
+    </style>
+</head>
+<body>
+  <h1> My nice title </h1>
+  <h2> My nice subtitle </h2>
+  <p> My nice paragraph </p>
+</body>
+</html>
+```
 

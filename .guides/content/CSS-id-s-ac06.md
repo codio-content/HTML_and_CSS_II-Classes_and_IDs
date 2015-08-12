@@ -23,3 +23,52 @@ You may see a complete example on the left ... Feel free to play with it.
 
 1) In the html, add to your tag `id="idname"`.
 2) In the css use the selectr the `#idname`.
+
+
+{Check It!|assessment}(test-3243473890)
+
+
+|||guidance
+
+## solution
+
+**example.html :**
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Example class</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+  <ul id="nav">
+    <li> first item </li>
+    <li> second item </li>
+    <li> third item </li>
+    <p id="content">
+      Any text here
+    </p>
+    <p id="footer">
+      Any text here
+    </p>
+  </ul>
+</body>
+</html>
+```
+
+**style.css :**
+
+```css
+ #nav {
+   color:red;
+ }
+
+#footer {
+  font-size:80%;
+  color:gray;
+}
+```
+
+|||
+
