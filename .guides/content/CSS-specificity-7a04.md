@@ -2,7 +2,7 @@ CSS Specificity is the mean by which a browser decides which CSS property values
 
 Specificity is only based on the matching rules which are composed of css selectors of different sorts.
 
-The specificity is a 4-tuple (A,B,C,D) :
+The specificity is a 4-tuple (A,B,C,D):
 
 ![](.guides/img/illu19.png)
 
@@ -20,22 +20,22 @@ Here are some examples, in order of increasing strength.
 (1,0,2,1)
 
 So :
-A '1' in A will always be stronger than any value in B, C or D.
-A '1' in B will always be stronger than any value in C or D.
-A '1' in C will always be stronger thant any value in D.
+- '1' in A will always be stronger than any value in B, C or D.
+- '1' in B will always be stronger than any value in C or D.
+- '1' in C will always be stronger thant any value in D.
 
 If there is an equality, for example in A, then the one with the biggest in B will win.
 
-### How do we calculate specificity ?
+### How do we calculate specificity?
 
-Specificity is a tuple like (A,B,C,D) where the values of A,B,C,D are calculated like this :
+Specificity is a tuple like (A,B,C,D) where the values of A,B,C,D are calculated like this:
 
-* Count 1 if the declaration is from is a 'style' attribute (inline style) rather than a rule with a selector, 0 otherwise (= A)
-* Count the number of IDs in the selector (= B)
-* Count the number of Classes, attributes and pseudo-classes in the selector (= C)
-* Count the number of Element names and pseudo-elements in the selector (= D)
+* Count 1 if the declaration is from is a 'style' attribute (inline style) rather than a rule with a selector, 0 otherwise (= **A**).
+* Count the number of IDs in the selector (= **B**).
+* Count the number of Classes, attributes and pseudo-classes in the selector (= **C**).
+* Count the number of Element names and pseudo-elements in the selector (= **D**).
 
-Or seen visually :
+Or seen visually:
 
 ![](.guides/img/illu24.png)
 
@@ -53,6 +53,6 @@ Try playing a bit with it you can enter any css selector you'd like. You can als
 - [#mylist li.myelement](open_preview 17-specificity/ex4.html panel=1)
 
 
-So which one is the strongest ? That explains why the color of our li is orange ...
+So which one is the strongest? That explains why the color of our li is orange ...
 
 {Check It!|assessment}(multiple-choice-663579098)

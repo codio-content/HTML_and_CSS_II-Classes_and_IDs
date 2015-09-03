@@ -2,16 +2,16 @@ So we want the nav to look differently at the top and the bottom of the page. We
 
 We need to target the descendants of `#header-nav` and the ones of `#footer-nav` independantly.
 
-There are two ways in css to target the descendants :
+There are two ways in CSS to target the descendants:
 
-1) Descendant selector syntax
-2) Children selector syntax
+1) Descendant selector syntax.
+2) Children selector syntax.
 
 ### 1) Descendant selector syntax.
 
 In css, if we want to target the descendants, it's pretty simple, just use a space sign : ` `.
 
-So if we want to target the li that are descendants of #header-nav, just write :
+So if we want to target the li that are descendants of #header-nav, just write:
 
 ```css
 #header-nav li {
@@ -27,7 +27,7 @@ Let's say we have the html which is in the top left window, and if we use the se
 
 Now if we only one to target the children of an element, we use the sign `>`
 
-So if we want to target the li's that are the children of #header-nav we will write :
+So if we want to target the li's that are the children of #header-nav we will write:
 
 ```css
 #header-nav > li {
@@ -45,9 +45,9 @@ Did you notice that the two li's at the bottom are not selected as they are not 
 Now this syntax works for anything, not only ids followed by tags.
 
 Go into the bottom left window, scroll a bit up and click "Options", the options panel for the tree view will open.
-Change the textbox value to whatever css selector you want and then click the "Show tree" button see how it affects which boxes are target by the selector or not ?
+Change the textbox value to whatever CSS selector you want and then click the "Show tree" button see how it affects which boxes are target by the selector or not ?
 
-(You might want to click the little arrow icon on the top left of the preview window so it becomes full screen and you have more space to play)
+(You might want to click the little arrow icon on the top left of the preview window so it becomes full screen and you have more space to play).
 
 You can try these different values :
 

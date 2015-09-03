@@ -2,7 +2,7 @@ You may ask yourself :
 
 ## What is the difference between class and id ?
 
-This a normal question and people often get confused in the begining about that.
+This a normal question and people often get confused in the beginning about that.
 We will try to give you the most important informations about it.
 
 ### 1) id's are UNIQUE and classes are not.
@@ -17,7 +17,7 @@ What it means is that you cannot have :
 
 This is totally **forbidden** and there is no guarantee on how the browser will react to that, it might make the whole page simply fail. An id is short for "identifier" and it has to be unique !
 
-On the other end you can have this and it's totally valid :
+On the other end, you can have this and it's totally valid :
 
 ```html
 <p class="super_paragraph"> </p>
@@ -29,7 +29,7 @@ This is totally legal and the browser will work perfectly with it.
 
 ### 2) id's have a special browser meaning.
 
-If you put at the end of an url an `#id` the browser will try to scroll the page to that element of the page if it exists.
+If you put at the end of an url an `#id` the browser, when it loads the page, will try to scroll the page to that element of the page if it exists.
 
 So for example if you have `index.html` with this content :
 

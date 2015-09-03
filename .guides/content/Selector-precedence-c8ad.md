@@ -1,7 +1,7 @@
 If we have multiple styles that could apply to an element.
-How do we know which ones will be applied and in what order ?
+How do we know which ones will be applied and in what order?
 
-For example, if we have this html :
+For example, if we have this HTML:
 
 ```html
 <ul id="mylist">
@@ -9,7 +9,7 @@ For example, if we have this html :
 </ul>
 ````
 
-And the following set of css rules :
+And the following set of css rules:
 
 ```css
 li {
@@ -29,16 +29,16 @@ li.myelement {
 }
 ```
 
-What color will be the `li` in the browser ?
-red, green, blue or orange ?
+What color will be the `li` in the browser?
+red, green, blue or orange?
 
-The answer is : orange ! (You can see the result in the bottom left window)
+The answer is : orange! (You can see the result in the bottom left window).
 
 And the reason is NOT because it is the last declaration to appear in the css file ...
 
-But why then ?
+But why then?
 
-In order to answer this question we need to learn more about the CSS precedence rules that will allow us to understand this ..
+In order to answer this question we need to learn more about the CSS precedence rules that will allow us to understand this ...
 
 ## CSS precedence
 When the browser find multiple declaration conflicting for the same css property (as in our example above) it needs to determine which one will be chosen.
@@ -54,7 +54,7 @@ It has 3 important steps :
 
 So if there is an !important value appended to a CSS property it's an automatic win^(1)^
 
-Exemple of using !important :
+Exemple of using !important:
 
 ```css
 li {
@@ -68,7 +68,7 @@ In the left top window, on line 10, try to add `!important`. Then refresh the bo
 
 2) Specificity of CSS rule selectors.
 
-If there is no !important, the browser will calculate the specificity of the selector and then choose the property whose selector has the highest specificity. We will see in the next section how to calculate the css specificity 
+If there is no !important, the browser will calculate the specificity of the selector and then choose the property whose selector has the highest specificity. We will see in the next section how to calculate the css specificity.
 
 3) Sequence of declaration.
 

@@ -7,9 +7,9 @@ Let's start with a concrete example :
 ```
 
 You see that the `<ul>` had an attribute called `id` with a value of `"nav"`.
-That's all you need to know in order to use ids in html.
+That's all you need to know in order to use ids in HTML.
 
-To target them in you stylesheet you need to use the special `#` sign.
+To target them in your stylesheet you need to use the special `#` sign.
 
 ```css
 #nav {
@@ -21,8 +21,8 @@ You may see a complete example on the left ... Feel free to play with it.
 
 ### In short :
 
-1) In the html, add to your tag `id="idname"`.
-2) In the css use the selectr the `#idname`.
+1) In the HTML, add to your tag `id="idname"`.
+2) In the CSS use the selector `#idname`.
 
 
 {Check It!|assessment}(test-3243473890)

@@ -4,7 +4,7 @@ Use an id when you want to be able to refer to a specific element of the page, e
 
 And use classes when you want to reuse styles on multiple elements, common examples of classes are : `highlight`, `external-link`, `quote`, `normal-text`, `huge-text`
 
-## It is generally recommanded to :
+## It is generally recommended to :
 
 ### 1) Not use any class or id if it's not necessary.
  

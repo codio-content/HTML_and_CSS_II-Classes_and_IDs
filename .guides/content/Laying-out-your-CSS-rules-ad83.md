@@ -1,7 +1,7 @@
 |||info
-### A little side note on how to layout your css rules
+### A little side note on how to layout your CSS rules
 
-As you have seen in the previous css code, you can either write your rule on 1 line or on many lines. 
+As you have seen in the previous CSS code, you can either write your rule on 1 line or on many lines. 
 
 For example you can write :
 
@@ -21,7 +21,7 @@ Or :
 
 The second option is recommended, simply because it is more readable.
 
-It is acceptable to put a css rule on one line only when there is only one property in it, like this :
+It is acceptable to put a CSS rule on one line only when there is only one property in it, like this :
 
 ```css
 .left { text-align:left; }
