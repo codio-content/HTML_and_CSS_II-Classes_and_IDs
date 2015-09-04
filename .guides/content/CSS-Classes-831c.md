@@ -43,7 +43,7 @@ Now, how do we apply a certain class to an HTML tag ?
 
 It's simple, just add `class="my-first-class"` or `class="my-second-class` to the tag.
 
-On the top left, we have a HTML document `example.html` that is using it all. Feel free to play with it, you can see the result in the bottom left window.
+On the top left hand pane, we have a HTML document `example.html` that is using it all. In this example we have embedded the CSS directly into the HTML document as we have seen before un Unit 3 : Introduction to CSS. Feel free to play with it, you can see the result in the bottom left hand pane.
 
 ### In short :
 
