@@ -12,6 +12,6 @@ Using this technique we would end up with the following classes :
 
 `.box-red-left`, `.box-red-center`, `.box-red-right`, `.box-blue-left`, `.box-blue-center`, `.box-blue-right`, `.box-green-left`, `.box-green-center`, `.box-green-right`
 
-That's a lot of css classes and a lot of repetitions in the css, moreover it's not very "maintainable" .. What happens if the designer decides to change the shade of the colors ? We have to go and modify so many CSS classes ...
+That's a lot of CSS classes and a lot of repetitions in the CSS, moreover it's not very "maintainable" .. What happens if the designer decides to change the shade of the colors ? We have to go and modify so many CSS classes ...
 
 Let's head to the next section to see a better way of doing it.

@@ -1,8 +1,8 @@
-Now we have seen ids and classes and it gives us a lot more power for the CSS.
+Now we have seen IDs and classes and it gives us a lot more power for the CSS.
 We have also seen that we shouldn't abuse them.
 Here are some examples of doing the same thing with our without classes and how to combines rules for multiple elements.
 
-Let's imagine we have the following html (you can see it on the top left window):
+Let's imagine we have the following HTML (you can see it on the top left window):
 
 ```html
 <h1 class="myfont"> My nice title </h1>
@@ -10,7 +10,7 @@ Let's imagine we have the following html (you can see it on the top left window)
 <p class="myfont"> My nice paragraph </p>
 ```
 
-and the css:
+and the CSS:
 
 ```css
 .myfont {
@@ -46,7 +46,7 @@ h1, h2, p { font-family: Verdana, Arial, sans-serif; }
 
 Here we say that we want this font-family on h1, h2 and p.
 
-The `,` in a css file allows us to target multiple selectors at once.
+The `,` in a CSS file allows us to target multiple selectors at once.
 
 So `h1, h2, p` means: put this style on `h1`, `h2` and `p`.
 

@@ -44,7 +44,7 @@ li.selected {
 
 
 
-### 2) Other ways of combining ids, tags and classes in a selector :
+### 2) Other ways of combining IDs, tags and classes in a selector :
 
 Because we want the nav to look differently at the top and the bottom of the page. We need to be able to put a different style for the top nav with `id="header-nav"` and the bottom nav with `id="footer-nav"`.
 

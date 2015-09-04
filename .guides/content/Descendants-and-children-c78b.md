@@ -18,7 +18,7 @@ The `<li>` tags are *descendants* of the `<ul>` tags.
 
 ## Seeing it another way
 
-Consider we have the html as `example1.html` in the top left window.
+Consider we have the HTML as `example1.html` in the top left window.
 
 Look at the bottom left window and the green tags are the descendants of the body tag.
 
@@ -46,6 +46,6 @@ But `<li>` tags are not children of `body`.
 
 The vocabulary and logic is the same as for human descendants and children :)
 
-Now that we understand the concept of *descandant* let's go to the next section to continue combining ids, classes and tags in css selectors.
+Now that we understand the concept of *descandant* let's go to the next section to continue combining IDs, classes and tags in CSS selectors.
 
 PS : In all the examples above you can change the top left HTML and then refresh the bottom left window in order to see how it changes ...

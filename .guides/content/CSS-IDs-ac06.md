@@ -7,7 +7,7 @@ Let's start with a concrete example :
 ```
 
 You see that the `<ul>` had an attribute called `id` with a value of `"nav"`.
-That's all you need to know in order to use ids in HTML.
+That's all you need to know in order to use IDs in HTML.
 
 To target them in your stylesheet you need to use the special `#` sign.
 

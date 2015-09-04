@@ -14,10 +14,10 @@ Using this technique we would end up with the following classes :
 
 `.box-red-left`, `.box-red-center`, `.box-red-right`, `.box-blue-left`, `.box-blue-center`, `.box-blue-right`, `.box-green-left`, `.box-green-center`, `.box-green-right`
 
-That's a lot of css classes and a lot of repetitions in the css, moreover it's not very "maintainable" .. What happens if the designer decides to change the shade of the colors ? We have to go and modify so many css classes ...
+That's a lot of CSS classes and a lot of repetitions in the CSS, moreover it's not very "maintainable" .. What happens if the designer decides to change the shade of the colors ? We have to go and modify so many CSS classes ...
 
 
-Here is a better way to do it, using multiple css classes :
+Here is a better way to do it, using multiple CSS classes :
 
 ```html
 <p class="box red left"> I'm in a red box on the left </p>
@@ -25,7 +25,7 @@ Here is a better way to do it, using multiple css classes :
 <p class="box green right"> I'm in a green box on the right </p>
 ```
 
-With the following css :
+With the following CSS :
 
 ```css
 .box {
@@ -60,9 +60,9 @@ Which will look like this :
 And now if the designer wants to change the shade of the red color, we just have one class to change `.red` and it will be applied everywhere .. That's much more maintainable. Moreover there is absolutely zero repetitions.
 
 |||info
-### A little side note on how to layout your css rules
+### A little side note on how to layout your CSS rules
 
-As you have seen in the previous css code, you can either write your rule on 1 line or on many lines. 
+As you have seen in the previous CSS code, you can either write your rule on 1 line or on many lines. 
 
 For example you can write :
 
@@ -82,7 +82,7 @@ Or :
 
 The second option is recommanded, simply because it is more readable.
 
-It is accepted to put a css rule on one line only when there is only one property in it, like this :
+It is accepted to put a CSS rule on one line only when there is only one property in it, like this :
 
 ```css
 .left { text-align:left; }

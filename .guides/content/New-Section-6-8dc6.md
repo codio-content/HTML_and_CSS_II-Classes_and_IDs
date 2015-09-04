@@ -1,6 +1,6 @@
 Now a little challenge in order to exercise on this concept of multiple rules :
 
-Imagine we have this html :
+Imagine we have this HTML :
 
 ```html
 <p class="normal-orange-left"> Some content </p>

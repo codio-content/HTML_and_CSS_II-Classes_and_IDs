@@ -9,7 +9,7 @@ There are two ways in CSS to target the descendants:
 
 ### 1) Descendant selector syntax.
 
-In css, if we want to target the descendants, it's pretty simple, just use a space sign : ` `.
+In CSS, if we want to target the descendants, it's pretty simple, just use a space sign : ` `.
 
 So if we want to target the li that are descendants of #header-nav, just write:
 
@@ -20,7 +20,7 @@ So if we want to target the li that are descendants of #header-nav, just write:
 }
 ```
 
-Let's say we have the html which is in the top left window, and if we use the selector `#header-nav li` on it. You can see in the bottom left window the elements that would be targeted (the ones in green).
+Let's say we have the HTML which is in the top left window, and if we use the selector `#header-nav li` on it. You can see in the bottom left window the elements that would be targeted (the ones in green).
 
 
 ### 2) Descendant selector syntax.
@@ -42,7 +42,7 @@ Did you notice that the two li's at the bottom are not selected as they are not 
 
 ## More examples :
 
-Now this syntax works for anything, not only ids followed by tags.
+Now this syntax works for anything, not only IDs followed by tags.
 
 Go into the bottom left window, scroll a bit up and click "Options", the options panel for the tree view will open.
 Change the textbox value to whatever CSS selector you want and then click the "Show tree" button see how it affects which boxes are target by the selector or not ?

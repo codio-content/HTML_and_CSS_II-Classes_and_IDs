@@ -1,1 +1,1 @@
-Let's first introduce the concept of id.
+Let's first introduce the concept of ID.

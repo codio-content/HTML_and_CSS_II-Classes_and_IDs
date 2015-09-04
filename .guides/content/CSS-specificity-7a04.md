@@ -1,6 +1,6 @@
 CSS Specificity is the mean by which a browser decides which CSS property values are the most relevant to an element and therefore will be applied.
 
-Specificity is only based on the matching rules which are composed of css selectors of different sorts.
+Specificity is only based on the matching rules which are composed of CSS selectors of different sorts.
 
 The specificity is a 4-tuple (A,B,C,D):
 
@@ -43,9 +43,9 @@ Or seen visually:
 
 There is an automatic specificity calculator in the bottom left window.
 
-In the top text field, where it's written `#nav-header li.selected`, you can enter any css selector you'd like and it will calculate the specificity underneath it.
+In the top text field, where it's written `#nav-header li.selected`, you can enter any CSS selector you'd like and it will calculate the specificity underneath it.
 
-Try playing a bit with it you can enter any css selector you'd like. You can also click on the selectors underneath to open new windows with those, so you can compare them.
+Try playing a bit with it you can enter any CSS selector you'd like. You can also click on the selectors underneath to open new windows with those, so you can compare them.
 
 - [li](open_preview 17-specificity/ex1.html panel=1)
 - [li.myelement](open_preview 17-specificity/ex2.html panel=1)

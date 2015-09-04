@@ -1,4 +1,4 @@
-A *descendant* in html is a tag which is "inside" another tag.
+A *descendant* in HTML is a tag which is "inside" another tag.
 
 So for example any tag in our page is a descendant of the `<html>`
  tag and of the `<body>`tag.

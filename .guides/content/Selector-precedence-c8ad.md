@@ -9,7 +9,7 @@ For example, if we have this HTML:
 </ul>
 ````
 
-And the following set of css rules:
+And the following set of CSS rules:
 
 ```css
 li {
@@ -34,14 +34,14 @@ red, green, blue or orange?
 
 The answer is : orange! (You can see the result in the bottom left window).
 
-And the reason is NOT because it is the last declaration to appear in the css file ...
+And the reason is NOT because it is the last declaration to appear in the CSS file ...
 
 But why then?
 
 In order to answer this question we need to learn more about the CSS precedence rules that will allow us to understand this ...
 
 ## CSS precedence
-When the browser find multiple declaration conflicting for the same css property (as in our example above) it needs to determine which one will be chosen.
+When the browser find multiple declaration conflicting for the same CSS property (as in our example above) it needs to determine which one will be chosen.
 
 For that it uses a set of CSS precedence rules. Here is a diagram that explains it :
 
@@ -68,11 +68,11 @@ In the left top window, on line 10, try to add `!important`. Then refresh the bo
 
 2) Specificity of CSS rule selectors.
 
-If there is no !important, the browser will calculate the specificity of the selector and then choose the property whose selector has the highest specificity. We will see in the next section how to calculate the css specificity.
+If there is no !important, the browser will calculate the specificity of the selector and then choose the property whose selector has the highest specificity. We will see in the next section how to calculate the CSS specificity.
 
 3) Sequence of declaration.
 
-If 2 selectors or more have exactly the same specificity the browser will select the one that was declared the last in the css file.
+If 2 selectors or more have exactly the same specificity the browser will select the one that was declared the last in the CSS file.
 
 ---
 

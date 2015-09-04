@@ -78,7 +78,7 @@
   },
   {
    "id": "ac06acf5-7e99-6b53-f27e-c3aad1c26330",
-   "title": "CSS ids",
+   "title": "CSS IDs",
    "files": [
     {
      "path": "#tabs",
@@ -105,7 +105,7 @@
     "4-css-ids"
    ],
    "type": "markdown",
-   "content-file": ".guides/content/CSS-ids-ac06.md",
+   "content-file": ".guides/content/CSS-IDs-ac06.md",
    "chapter": true,
    "reset": [
     "4-css-ids"
