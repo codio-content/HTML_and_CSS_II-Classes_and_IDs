@@ -1,4 +1,4 @@
-Let's imagine we have 3 paragraphs of texts and we want the middle one to look differently, it should look like a "quote" with a bigger font size, a lighter color and a small shift on the right.
+Let's imagine we have 3 paragraphs of texts and we want the middle one to look different, it should look like a "quote" with a bigger font size, a lighter color and a small shift on the right.
 
 How can we achieve it using CSS ?
 
@@ -12,7 +12,7 @@ p {
 }
 ```
 
-It will target ALL the paragraphs in the document, and there is now way, using this method, to say that the second paragraph should be different.
+It will target ALL the paragraphs in the document, and there is no way, using this method, to say that the second paragraph should be different.
 
 That's where CSS classes come into play !
 
@@ -39,7 +39,7 @@ The two other ones `.my-first-class` and `.my-second-class` are both classes and
 
 So to define a CSS class you should start with a dot `.` followed by the actual class name.
 
-Now how do we apply a certain class to an HTML tag ?
+Now, how do we apply a certain class to an HTML tag ?
 
 It's simple, just add `class="my-first-class"` or `class="my-second-class` to the tag.
 

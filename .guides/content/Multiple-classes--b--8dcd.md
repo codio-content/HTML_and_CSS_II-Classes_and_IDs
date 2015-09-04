@@ -1,4 +1,4 @@
-On the top left is a better way to do it, using multiple CSS classes .. and you can see the result underneath it.
+In the top left hand pane, in `example2.html` you can see a better way to do it, using multiple CSS classes .. and you can see the result underneath it.
 
 Basically we try to use one class per category of properties, we have 3 classes for the colors : `red`, `blue` and `green`. We have a class called `box` and 3 classes for the alignment : `left`, `right` and `center`. By combining these classes we can achieve what we want.
 

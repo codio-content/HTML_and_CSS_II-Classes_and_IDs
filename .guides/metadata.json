@@ -78,7 +78,7 @@
   },
   {
    "id": "ac06acf5-7e99-6b53-f27e-c3aad1c26330",
-   "title": "CSS id's",
+   "title": "CSS ids",
    "files": [
     {
      "path": "#tabs",
@@ -105,7 +105,7 @@
     "4-css-ids"
    ],
    "type": "markdown",
-   "content-file": ".guides/content/CSS-id-s-ac06.md",
+   "content-file": ".guides/content/CSS-ids-ac06.md",
    "chapter": true,
    "reset": [
     "4-css-ids"
@@ -159,7 +159,7 @@
   },
   {
    "id": "91de6890-7601-1732-c3f3-aacb1b222399",
-   "title": "Multiple classes (I)",
+   "title": "Multiple classes (a)",
    "files": [
     {
      "path": "#tabs",
@@ -183,7 +183,7 @@
     "7-multiple-classes"
    ],
    "type": "markdown",
-   "content-file": ".guides/content/Multiple-classes--I--91de.md",
+   "content-file": ".guides/content/Multiple-classes--a--91de.md",
    "chapter": true,
    "reset": [
     "7-multiple-classes"
@@ -191,7 +191,7 @@
   },
   {
    "id": "8dcd726-9d57-6759-e987-5e70745f14cd",
-   "title": "Multiple classes (II)",
+   "title": "Multiple classes (b)",
    "files": [
     {
      "path": "#tabs",
@@ -215,7 +215,7 @@
     "7-multiple-classes"
    ],
    "type": "markdown",
-   "content-file": ".guides/content/Multiple-classes--II--8dcd.md",
+   "content-file": ".guides/content/Multiple-classes--b--8dcd.md",
    "chapter": false,
    "reset": [
     "7-multiple-classes"
@@ -255,11 +255,6 @@
      "action": "close"
     },
     {
-     "path": "6-multiple-classes-challenge/index.html",
-     "panel": 0,
-     "action": "open"
-    },
-    {
      "path": "6-multiple-classes-challenge/style.css",
      "panel": 0,
      "action": "open"
@@ -267,6 +262,11 @@
     {
      "path": "#preview: 6-multiple-classes-challenge/index.html",
      "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "6-multiple-classes-challenge/index.html",
+     "panel": 0,
      "action": "open"
     }
    ],

@@ -4,9 +4,7 @@ Here we will see how to use multiple classes in order to achieve what we want.
 
 Let's say we want some of our content to be in red boxes and some other content to be in blue boxes.
 
-The most naive way of doing this would be like in the left top editor.
-
-With a result looking like on the bottom left.
+The most naive way of doing this would be as you can see in the `example1.html` file in the top left hand pane, and the result will look like you see in the preview pane underneath it.
 
 This is working and doesn't seem too bad, but imagine we have a third color "green" on our website and we also have 3 text alignments "left", "center", "right" ...
 
