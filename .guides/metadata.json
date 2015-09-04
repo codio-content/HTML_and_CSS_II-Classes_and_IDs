@@ -313,7 +313,7 @@
   },
   {
    "id": "48d5cf8a-fd55-519e-8b96-14e8921715a2",
-   "title": "Combining tags, ids and classes in selectors.",
+   "title": "Combining tags, IDs and classes in selectors.",
    "files": [
     {
      "path": "#tabs",
@@ -325,7 +325,7 @@
      "action": "open"
     },
     {
-     "path": "8-combining/style.cs",
+     "path": "8-combining/style.css",
      "panel": 0,
      "action": "open"
     },
@@ -340,7 +340,7 @@
     "8-combining"
    ],
    "type": "markdown",
-   "content-file": ".guides/content/Combining-tags--ids-and-classes-in-selectors--48d5.md",
+   "content-file": ".guides/content/Combining-tags--IDs-and-classes-in-selectors--48d5.md",
    "chapter": true,
    "reset": [
     "8-combining"
@@ -378,7 +378,7 @@
   },
   {
    "id": "c0f8e634-576e-e499-27cb-da1ef7d63df5",
-   "title": "Combining tags, ids and classes (continued)",
+   "title": "Combining tags, IDs and classes (continued)",
    "files": [
     {
      "path": "#tabs",
@@ -402,7 +402,7 @@
     "14-combining-tags-ids-classes"
    ],
    "type": "markdown",
-   "content-file": ".guides/content/Combining-tags--ids-and-classes--continued--c0f8.md",
+   "content-file": ".guides/content/Combining-tags--IDs-and-classes--continued--c0f8.md",
    "chapter": true,
    "reset": [
     "14-combining-tags-ids-classes"
