@@ -66,9 +66,7 @@ If you want to apply a common style to the first and third paragraphs but a diff
 
 {Check It!|assessment}(test-3810073812)
 
-Now that you have succeeded in the challenge.
-
-Try hitting the refresh button in the bottom left preview and see the magic happen !
+When you have successfully completed the challenge, hit the refresh button in the bottom left preview if you haven't already to see the magic happen !
 
 |||guidance
 
@@ -96,6 +94,6 @@ Try hitting the refresh button in the bottom left preview and see the magic happ
   <p class='highlighted'> This paragraph is very interesting and should be highlighted !</p>
   <p> Another very long paragraph that doesnt say anything but is here to take some space, in a real website this paragraph would say very interesting things, I'm sure.</p>
 </body>
-</html>```
-
+</html>
+```
 |||

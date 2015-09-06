@@ -1,7 +1,7 @@
 |||info
 ### A little side note on how to layout your CSS rules
 
-As you have seen in the previous CSS code, you can either write your rule on 1 line or on many lines. 
+As you have seen in the previous CSS code, you can either write your rule on one line or on many lines. 
 
 For example you can write :
 

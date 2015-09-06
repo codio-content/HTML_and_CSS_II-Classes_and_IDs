@@ -17,7 +17,7 @@ To target them in your stylesheet you need to use the special `#` sign.
 }
 ```
 
-You may see a complete example on the left ... Feel free to play with it.
+You can see a complete example on the left ... Feel free to play with it.
 
 ### In short :
 
