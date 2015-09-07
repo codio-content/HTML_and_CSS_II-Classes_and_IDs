@@ -1,5 +1,4 @@
-If we have multiple styles that could apply to an element.
-How do we know which ones will be applied and in what order?
+If we have multiple styles that could apply to an element, how do we know which ones will be applied and in what order?
 
 For example, if we have this HTML:
 
@@ -32,7 +31,7 @@ li.myelement {
 What color will be the `li` in the browser?
 red, green, blue or orange?
 
-The answer is : orange! (You can see the result in the bottom left hand pane).
+The answer is : orange!.
 
 And the reason is NOT because it is the last declaration to appear in the CSS file ...
 
@@ -52,9 +51,9 @@ It has 3 important steps :
 
 1) !important at end of CSS property.
 
-So if there is an !important value appended to a CSS property it's an automatic win^(1)^
+So if there is an `!important` value appended to a CSS property it's an automatic win^(1)^
 
-Exemple of using !important:
+Example of using `!important`:
 
 ```css
 li {
@@ -62,13 +61,11 @@ li {
 }
 ```
 
-This will win over any other rule. It is advised to avoid using !important as there are other ways to achieve the same result and this cannot be overriden in any way later.
-
-In the left top hand pane, in example.html on line 7, try to add `!important` after `      color:red`. Then refresh the preview underneath and you will see the color change to red!
+This will win over any other rule. It is advised to avoid using `!important` as there are other ways to achieve the same result and this cannot be overriden in any way later.
 
 2) Specificity of CSS rule selectors.
 
-If no !important is found, the browser will calculate the specificity of the selector and then choose the property whose selector has the highest specificity. We will see in the next section how to calculate the CSS specificity.
+If no `!important` is found, the browser will calculate the specificity of the selector and then choose the property whose selector has the highest specificity. We will see in the next section how to calculate the CSS specificity.
 
 3) Sequence of declaration.
 
@@ -76,7 +73,7 @@ If 2 selectors or more have exactly the same specificity the browser will select
 
 ---
 
-(1) : The only way an !important value can be overridden is with another !important rule declared later in the CSS and with equal or greater specificity value otherwise
+(1) : The only way an !important value can be overridden is with another `!important` rule declared later in the CSS and with equal or greater specificity value otherwise
 
 {Check It!|assessment}(multiple-choice-3955022808)
 

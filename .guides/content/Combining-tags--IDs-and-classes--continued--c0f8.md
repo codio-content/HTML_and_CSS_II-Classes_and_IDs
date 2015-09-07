@@ -27,7 +27,7 @@ Let's say we have the HTML which is in the top left window, and if we use the se
 
 Now, if we only one to target the children of an element, we use the sign `>`
 
-So if we want to target the li's that are the children of #header-nav we will write:
+So if we want to target the `li`'s that are the children of `#header-nav` we will write:
 
 ```css
 #header-nav > li {
@@ -38,7 +38,7 @@ So if we want to target the li's that are the children of #header-nav we will wr
 
 To visualize the elements that would be selected (in green again), [click here](open_preview 14-combining-tags-ids-classes/example2.html panel=1).
 
-Did you notice that the two li's at the bottom are not selected as they are not direct children ?
+Did you notice that the two `li`'s at the bottom are not selected as they are not direct children ?
 
 ## More examples :
 

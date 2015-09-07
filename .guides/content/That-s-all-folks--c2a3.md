@@ -1,3 +1,3 @@
-In this unit, we have seen CSS classes and IDs. We have seen the difference between them and when to use each of them. We learned how to use multiple CSS classes to simplify our CSS and make it more clean. Finally we have seen how to combine CSS selectors together and how to calculate which rules will be applied to an element when multiple CSS rules match!
+In this unit, we have seen CSS classes and IDs. We have seen the difference between them and when to use each of them. We learned how to use multiple CSS classes to simplify our CSS and make it cleaner. Finally we have seen how to combine CSS selectors together and how to calculate which rules will be applied to an element when multiple CSS rules match!
 
 In the next unit, we will see the secrets of margins, paddings, sizing and the CSS box model!

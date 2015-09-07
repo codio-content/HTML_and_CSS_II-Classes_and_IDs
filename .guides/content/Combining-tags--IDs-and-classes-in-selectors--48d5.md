@@ -1,6 +1,6 @@
 Let's have a look at the `index.html` and `style.css` on the top left hand pane and the preview underneath it.
 
-It's all nice but it is not exactly what we want. First we would like to have the nav in the top look differently than the nav in the bottom. And secondly we would like the `.selected` class to behave differently when it's applied to the navigation, the headers or the paragraphs.
+It's all nice but it is not exactly what we want. First we would like to have the nav in the top look different than the nav in the bottom. And secondly we would like the `.selected` class to behave differently when it's applied to the navigation, the headers or the paragraphs.
 
 How can we achieve this?
 We need to learn how to combine the CSS selectors in order to target elements more precisely.
@@ -39,9 +39,11 @@ li.selected {
 
 ```
 
+|||info
+
 **Attention** : Their must be no space before or after the `.` or the meaning would be different and it wouldn't work as expected.
 
-
+|||
 
 
 ### 2) Other ways of combining IDs, tags and classes in a selector :

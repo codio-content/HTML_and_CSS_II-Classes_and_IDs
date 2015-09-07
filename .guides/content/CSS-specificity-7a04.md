@@ -1,4 +1,4 @@
-CSS Specificity is the mean by which a browser decides which CSS property values are the most relevant to an element and therefore will be applied.
+CSS Specificity is the means by which a browser decides which CSS property values are the most relevant to an element and therefore will be applied.
 
 The specificity is a 4-tuple (A,B,C,D):
 

@@ -1,8 +1,8 @@
 Now we have seen IDs and classes and it gives us a lot more power for the CSS.
 We have also seen that we shouldn't abuse them.
-Here are some examples of doing the same thing with our without classes and how to combines rules for multiple elements.
+Here are some examples of doing the same thing with and without classes and how to combine rules for multiple elements.
 
-Let's imagine we have the following HTML code (you can see it in the withclass.html file in top left hand pane):
+Let's imagine we have the following HTML code (you can see it in the `withclass.html` file in top left hand pane):
 
 ```html
 <h1 class="myfont"> My nice title </h1>
@@ -20,7 +20,7 @@ and this CSS
 
 That works .. But do we really need a class for this ?
 
-We could just do (you can see it in the withoutclasses.html file in the bottom left hand pane):
+We could just do (you can see it in the `withoutclasses.html` file in the bottom left hand pane):
 
 ```html
 <h1> My nice title </h1>

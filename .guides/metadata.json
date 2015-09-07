@@ -9,7 +9,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Introduction-d7af.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "831c14f9-3d10-a2a5-11b2-733baa3893c3",
@@ -39,7 +40,8 @@
    "chapter": true,
    "reset": [
     "2-css-classes"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "6a8b502-d02c-7c48-5035-16f77e33323b",
@@ -74,7 +76,8 @@
    "chapter": true,
    "reset": [
     "3-our-quote-example"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "ac06acf5-7e99-6b53-f27e-c3aad1c26330",
@@ -109,7 +112,8 @@
    "chapter": true,
    "reset": [
     "4-css-ids"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "179d4813-30a9-3272-e65f-4b2efdd8040",
@@ -125,7 +129,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Difference-between-class-and-id-179d.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "666a3e17-140f-c987-8786-1705676fd207",
@@ -155,7 +160,8 @@
    "chapter": true,
    "reset": [
     "6-when-to-use-what"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "91de6890-7601-1732-c3f3-aacb1b222399",
@@ -187,7 +193,8 @@
    "chapter": true,
    "reset": [
     "7-multiple-classes"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "8dcd726-9d57-6759-e987-5e70745f14cd",
@@ -219,7 +226,8 @@
    "chapter": false,
    "reset": [
     "7-multiple-classes"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "ad8397ab-1d36-7aee-ee4d-94e766d17cc5",
@@ -244,7 +252,8 @@
    "chapter": false,
    "reset": [
     "7-multiple-classes"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "8dc62f7e-325-84f7-acff-3426fbecd5c0",
@@ -279,7 +288,8 @@
    "chapter": true,
    "reset": [
     "6-multiple-classes-challenge"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "cad462ee-ce11-4c85-77d7-5d6fa0aa9ec0",
@@ -309,7 +319,8 @@
    "chapter": true,
    "reset": [
     "11-same-rule-multiple-elements"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "48d5cf8a-fd55-519e-8b96-14e8921715a2",
@@ -344,7 +355,8 @@
    "chapter": true,
    "reset": [
     "8-combining"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "c78b109-1ec4-d081-e5e4-59549957c5f5",
@@ -374,7 +386,8 @@
    "chapter": true,
    "reset": [
     "13-descendants-and-children"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "c0f8e634-576e-e499-27cb-da1ef7d63df5",
@@ -406,7 +419,8 @@
    "chapter": true,
    "reset": [
     "14-combining-tags-ids-classes"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "9a8342c3-2c4c-e306-3cc3-ac3f4dc991c1",
@@ -441,7 +455,8 @@
    "chapter": false,
    "reset": [
     "11-combining-challenge"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "c8ad9e26-8f89-4e60-14bd-acc666c8978",
@@ -450,19 +465,9 @@
     {
      "path": "#tabs",
      "action": "close"
-    },
-    {
-     "path": "16-selector-precedence/example.html",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: 16-selector-precedence/example.html",
-     "panel": 1,
-     "action": "open"
     }
    ],
-   "layout": "3-cell-tree",
+   "layout": "1-panel",
    "path": [
     "16-selector-precedence"
    ],
@@ -471,7 +476,8 @@
    "chapter": true,
    "reset": [
     "16-selector-precedence"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "7a04c1ed-4367-559c-8393-d2b7b8d49d10",
@@ -492,7 +498,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "3-cell-tree",
    "path": [
     "17-specificity"
    ],
@@ -501,7 +507,8 @@
    "chapter": true,
    "reset": [
     "17-specificity"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "3fe0c97d-d348-b05e-b684-b53dc06c6844",
@@ -536,7 +543,8 @@
    "chapter": true,
    "reset": [
     "18-final-challenge"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "c2a334a9-c2a-c489-ec36-79453aa29ef9",
@@ -552,7 +560,8 @@
    "type": "markdown",
    "content-file": ".guides/content/That-s-all-folks--c2a3.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   }
  ],
  "theme": "light",
