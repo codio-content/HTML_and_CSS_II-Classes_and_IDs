@@ -26,7 +26,7 @@ Now [Click here](close_all panel=1; open_preview 13-descendants-and-children/exa
 
 
 ## Children vs Descendants
-There is a dinstinction to me made about descendants. There is a special kind of descendants which is called *child* or *children*.
+There is a dinstinction to me made about descendants. There is a special kind of descendant which is called *child* or *children*.
 
 |||definition
 A direct descendant is a child.

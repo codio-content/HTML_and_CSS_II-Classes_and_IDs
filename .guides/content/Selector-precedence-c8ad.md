@@ -49,7 +49,7 @@ For that it uses a set of CSS precedence rules. Here is a diagram that explains 
 
 It has 3 important steps :
 
-1) !important at end of CSS property.
+1) `!important` at end of CSS property.
 
 So if there is an `!important` value appended to a CSS property it's an automatic win^(1)^
 
@@ -69,11 +69,11 @@ If no `!important` is found, the browser will calculate the specificity of the s
 
 3) Sequence of declaration.
 
-If 2 selectors or more have exactly the same specificity the browser will select the one that was declared the last in the CSS file.
+If two selectors or more have exactly the same specificity the browser will select the one that was declared the last in the CSS file.
 
 ---
 
-(1) : The only way an !important value can be overridden is with another `!important` rule declared later in the CSS and with equal or greater specificity value otherwise
+(1) : The only way an `!important` value can be overridden is with another `!important` rule declared later in the CSS and with equal or greater specificity value otherwise
 
 {Check It!|assessment}(multiple-choice-3955022808)
 

@@ -9,7 +9,7 @@ There are two ways in CSS to target the descendants:
 
 ### 1) Descendant selector syntax.
 
-In CSS, if we want to target the descendants, it's pretty simple, just use a space sign : ` `.
+In CSS, if we want to target the descendants, it's pretty simple, just use a space sign.
 
 So if we want to target the `li` that are descendants of `#header-nav`, we just need to write:
 

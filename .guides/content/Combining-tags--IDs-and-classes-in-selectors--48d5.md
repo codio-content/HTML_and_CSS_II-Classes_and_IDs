@@ -41,7 +41,8 @@ li.selected {
 
 |||info
 
-**Attention** : Their must be no space before or after the `.` or the meaning would be different and it wouldn't work as expected.
+### Attention
+Their must be no space before or after the `.` or the meaning would be different and it wouldn't work as expected.
 
 |||
 
