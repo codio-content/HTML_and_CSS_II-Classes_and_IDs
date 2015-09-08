@@ -70,7 +70,7 @@ When you have successfully completed the challenge, hit the refresh button in th
 
 |||guidance
 
-# Solution :
+## Solution :
 
 `Challenge.html` should be like :
 

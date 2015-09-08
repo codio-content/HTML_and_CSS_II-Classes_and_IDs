@@ -30,7 +30,7 @@ You can see a complete example on the left ... Feel free to play with it.
 
 |||guidance
 
-## solution
+## Solution
 
 **example.html :**
 

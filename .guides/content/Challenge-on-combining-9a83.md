@@ -5,7 +5,7 @@ With all this newly acquired knowledge, we are ready to fix what was wrong with 
 
 |||guidance
 
-Solution :
+## Solution :
 
 **style.css :**
 ```css
