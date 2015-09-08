@@ -77,6 +77,12 @@ If two selectors or more have exactly the same specificity the browser will sele
 
 {Check It!|assessment}(multiple-choice-3955022808)
 
+|||guidance
+
+The correct answer is : The last one to be declared.
+
+|||
+
 
 
 

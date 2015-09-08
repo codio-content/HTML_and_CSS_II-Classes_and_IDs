@@ -73,3 +73,9 @@ Try playing a bit with it. You can enter any CSS selector you'd like. You can al
 So which one is the strongest? That explains why the color of our li is orange ...
 
 {Check It!|assessment}(multiple-choice-663579098)
+
+|||guidance
+
+The correct answer is : Having an `id` and a `class` in it.
+
+|||
