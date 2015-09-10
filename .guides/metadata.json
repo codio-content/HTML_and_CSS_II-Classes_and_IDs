@@ -452,7 +452,7 @@
    ],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-on-combining-9a83.md",
-   "chapter": false,
+   "chapter": true,
    "reset": [
     "11-combining-challenge"
    ],
@@ -539,7 +539,7 @@
     "18-final-challenge"
    ],
    "type": "markdown",
-   "content-file": ".guides/content/An-final-challenge--3fe0.md",
+   "content-file": ".guides/content/A-final-challenge--3fe0.md",
    "chapter": true,
    "reset": [
     "18-final-challenge"
