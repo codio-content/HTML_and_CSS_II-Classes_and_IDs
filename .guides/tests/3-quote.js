@@ -24,7 +24,7 @@ if (ast.ast == undefined) {
     errors.push(".quote should have border-left : 10px solid #cccccc;");
   }
   if (!ast.selector_has_property(".quote","padding","10px")) {
-    errors.push(".quote should have a font size of 1.2em");
+    errors.push(".quote should have a padding of 10px");
   }
 }
 
