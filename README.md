@@ -7,6 +7,16 @@
 - More information on other Codio Courses, how you can collaborate and other useful information can be found in our [Information Wiki](https://github.com/codio-content/Information/wiki).
 
 
+## Important
+
+If you have forked this project to collaborate and improve this unit, run
+
+```
+git submodule update --init --recursive
+```
+
+in the terminal before testing your changes in Guides. Special submodules are required for this unit and this will ensure they are correctly applied.
+
 
 **License**
 

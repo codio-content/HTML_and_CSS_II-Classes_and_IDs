@@ -1,0 +1,185 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3955022808",
+  "source": {
+   "showName": true,
+   "answers": [
+    {
+     "correct": false,
+     "answer": "The first one to be declared.",
+     "_id": "55cb52e81258322a73eab597"
+    },
+    {
+     "answer": "A random one.",
+     "correct": false,
+     "_id": "55cb52e81258322a73eab596"
+    },
+    {
+     "answer": "None, they cancel each other.",
+     "correct": false,
+     "_id": "55e9aee080f8e32518cc9df1"
+    },
+    {
+     "correct": true,
+     "answer": "The last one to be declared.",
+     "_id": "55e9aee080f8e32518cc9df0"
+    }
+   ],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Same CSS specificity",
+   "instructions": "If 2 selectors have the same CSS specificity, which one will be chosen ?",
+   "points": 2,
+   "incorrectPoints": 0,
+   "multipleResponse": false
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-663579098",
+  "source": {
+   "showName": true,
+   "answers": [
+    {
+     "answer": "Having an `id` in it.",
+     "correct": false,
+     "_id": "55cb527d606db8e72cac76b1"
+    },
+    {
+     "answer": "Having a `class` in it.",
+     "correct": false,
+     "_id": "55cb527d606db8e72cac76b0"
+    },
+    {
+     "correct": true,
+     "answer": "Having an `id` and a `class` in it.",
+     "_id": "55cb527d606db8e72cac76af"
+    }
+   ],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "ID or class ?",
+   "instructions": "What gives the highest precedence to a CSS selector ?",
+   "points": 2,
+   "incorrectPoints": 0,
+   "multipleResponse": false
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2363738219",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Final challenge",
+   "instructions": "Observe the files`index.html` and `style.css` in the top left pane as well as the visual result underneath it.\n\nYou are asked to add styles in `style.css` :\n1) In `#header-nav` , on the items \"Article 1\" and \"Article 2\" put a font-size of 80%.\n\n2) On `#footer-nav` put a font-size of 60% and a padding-left of 0px.\n\n3) On the `h1` with class `small` put a font-size of 70%.\n\nYou are allowed exactly 3 CSS rules for that. \nYou are not allowed to modify the HTML file.\n\nGood luck !\n\n\n\n\n\n",
+   "command": "bash .guides/tests/exec.sh .guides/tests/final-challenge.js",
+   "points": 15
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2363988777",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Simplifying the classes",
+   "instructions": "Now a little challenge to check your understanding on the concept of multiple classes :\n\nHave a look at the `index.html` code on the left, as well as the code of the `style.css`\n\nYou will see that there are many classes declared in the CSS like `.normal-orange-right` or `.big-blue-left` ...\n\nYou are asked to simplify all this and use multiple classes in the HTML and CSS (like in section 5).\n\nEvery class should have one function and you should use multiple classes on the `<p>` in the html. \n\nThe end result must be exactly the same as now (see left bottom window for the preview)\n\nAnd here is a screenshot of it just in case :\n\n![](.guides/img/illu3.png)\n\nGood luck !",
+   "command": "bash .guides/tests/exec.sh .guides/tests/6-multiple-classes.js",
+   "points": 10
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2798805781",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Combining rules",
+   "instructions": "In the file `withoutclasses.html` in the bottom left pane :\n\nYou have to add a single CSS selector that will target both the `h1` and `h2` and make them both <b>bold</b>.\nThen create another single selector that will target both the `h2` and `p` and give them a color that is 'gray'.\n\nGood luck !\n",
+   "command": "bash .guides/tests/exec.sh .guides/tests/same-rule.js",
+   "points": 3
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2987952334",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Fix our page",
+   "instructions": "Have a look at our `index.html` and `style.css` in the top left hand pane as well as at the preview underneath it.\n\nWe ask you to change the CSS so that:\n\n1) The nav on the bottom should be different than the one from the top. Use descendant selector to target the `li` in `#footer-nav`.\nThis `li` should have a style like:\n\n```css\ndisplay: inline;\nbackground-color:transparent;\nmargin:2px;\npadding:0px\nfont-size:80%;\n```\n\n2) The `h2` which has a class of `selected` should not be in bold like the other `selected` elements. Instead it should be like: \n\n```css\nbackground-color:lightsalmon;\nfont-weight:normal;\nmargin-left:40px;\n```\n\n3) Again the `p` which has a class of `selected` should not be in bold. It should be like this :\n\n```css\nbackground-color:lightsalmon;\nfont-weight:normal;\nmargin-left:60px;\ncolor:black;\n```\n\nThat's it  ... Good luck !",
+   "command": "bash .guides/tests/exec.sh .guides/tests/11-combining-challenge.js",
+   "points": 10
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3243473890",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Work with ids",
+   "instructions": "Underneath the `ul` with `id=nav` in the top left file called `example.html` :\n- Add a `p` with `id=\"content\"` and put some text in it.\n- Underneath it, add another `p` with `id=\"footer\"` and put some text in it.\n\nNow, using CSS target the `p` with `id=\"footer\"` and apply this style to it :\n\n```css\ncolor:gray;\nfont-size:80%;\n```\nDon't forget to check the result in the preview.\nGood luck !",
+   "command": "bash .guides/tests/exec.sh .guides/tests/work-with-id.js",
+   "points": 3
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3810073812",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Class or ID ?",
+   "instructions": "Have a look at the `challenge.html` file on the top left.\nIt has a whole HTML structure created for you.\n\nPlease assign to the tags the following IDs and classes in a way that makes sense :\n1) `id=\"navigation\"`\n2) `class=\"current\"`\n3) `class=\"hightlighted\"`\n\nThink about the function of each element and read the texts, that might help !\n\nGood luck !",
+   "command": "bash .guides/tests/exec.sh .guides/tests/when-to-use-what.js",
+   "points": 3
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4045647570",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Our quote example",
+   "instructions": "On the left we have two files called `index.html` and `style.css` opened. On the bottom you have a preview of `index.html`.\n\nYou will see that there are 3 paragraphs. We ask you to make the second paragraph stand out as a quote. For that you will have to add a class called `quote` to the style.css file and to apply it to the second paragraph.\n\nThe quote class should have :\nA font size of `1.2em`\nA background color of `#f9f9f9`\nA border on the left of `10px solid #cccccc`\nA padding value of `10px`\n\nDon't forget to refresh your preview to see if everything works well!\nGood luck !",
+   "command": "bash .guides/tests/exec.sh .guides/tests/3-quote.js",
+   "points": 5
+  }
+ }
+]
