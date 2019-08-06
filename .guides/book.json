@@ -1,0 +1,137 @@
+{
+ "name": "HTML_and_CSS_II-Classes_and_IDs",
+ "children": [
+  {
+   "title": "Introduction",
+   "id": "d7afc5ac-333e-2f06-e6ad-7945391c5365",
+   "pageId": "d7afc5ac-333e-2f06-e6ad-7945391c5365",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "CSS Classes",
+   "id": "831c14f9-3d10-a2a5-11b2-733baa3893c3",
+   "pageId": "831c14f9-3d10-a2a5-11b2-733baa3893c3",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "A first class in practice",
+   "id": "6a8b502-d02c-7c48-5035-16f77e33323b",
+   "pageId": "6a8b502-d02c-7c48-5035-16f77e33323b",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "CSS IDs",
+   "id": "ac06acf5-7e99-6b53-f27e-c3aad1c26330",
+   "pageId": "ac06acf5-7e99-6b53-f27e-c3aad1c26330",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Difference between class and id",
+     "id": "179d4813-30a9-3272-e65f-4b2efdd8040",
+     "pageId": "179d4813-30a9-3272-e65f-4b2efdd8040",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "When to use what ?",
+   "id": "666a3e17-140f-c987-8786-1705676fd207",
+   "pageId": "666a3e17-140f-c987-8786-1705676fd207",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Multiple classes (a)",
+   "id": "91de6890-7601-1732-c3f3-aacb1b222399",
+   "pageId": "91de6890-7601-1732-c3f3-aacb1b222399",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Multiple classes (b)",
+     "id": "8dcd726-9d57-6759-e987-5e70745f14cd",
+     "pageId": "8dcd726-9d57-6759-e987-5e70745f14cd",
+     "type": "page"
+    },
+    {
+     "title": "Laying out your CSS rules",
+     "id": "ad8397ab-1d36-7aee-ee4d-94e766d17cc5",
+     "pageId": "ad8397ab-1d36-7aee-ee4d-94e766d17cc5",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Multiple classes challenge",
+   "id": "8dc62f7e-325-84f7-acff-3426fbecd5c0",
+   "pageId": "8dc62f7e-325-84f7-acff-3426fbecd5c0",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Same rule on multiple elements",
+   "id": "cad462ee-ce11-4c85-77d7-5d6fa0aa9ec0",
+   "pageId": "cad462ee-ce11-4c85-77d7-5d6fa0aa9ec0",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Combining tags, IDs and classes in selectors.",
+   "id": "48d5cf8a-fd55-519e-8b96-14e8921715a2",
+   "pageId": "48d5cf8a-fd55-519e-8b96-14e8921715a2",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Descendants and children",
+   "id": "c78b109-1ec4-d081-e5e4-59549957c5f5",
+   "pageId": "c78b109-1ec4-d081-e5e4-59549957c5f5",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Combining tags, IDs and classes (continued)",
+   "id": "c0f8e634-576e-e499-27cb-da1ef7d63df5",
+   "pageId": "c0f8e634-576e-e499-27cb-da1ef7d63df5",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Challenge on combining",
+   "id": "9a8342c3-2c4c-e306-3cc3-ac3f4dc991c1",
+   "pageId": "9a8342c3-2c4c-e306-3cc3-ac3f4dc991c1",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Selector precedence",
+   "id": "c8ad9e26-8f89-4e60-14bd-acc666c8978",
+   "pageId": "c8ad9e26-8f89-4e60-14bd-acc666c8978",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "CSS specificity",
+   "id": "7a04c1ed-4367-559c-8393-d2b7b8d49d10",
+   "pageId": "7a04c1ed-4367-559c-8393-d2b7b8d49d10",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "A final challenge!",
+   "id": "3fe0c97d-d348-b05e-b684-b53dc06c6844",
+   "pageId": "3fe0c97d-d348-b05e-b684-b53dc06c6844",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "That's all folks!",
+   "id": "c2a334a9-c2a-c489-ec36-79453aa29ef9",
+   "pageId": "c2a334a9-c2a-c489-ec36-79453aa29ef9",
+   "type": "chapter",
+   "children": []
+  }
+ ]
+}
